@@ -25,12 +25,13 @@ li{
   background-color:  #f2f4f4 ;
   width: 100%;
   border-bottom: 1px solid black;
+  position: fixed;
+  z-index: 999;
+  top: 0;
 }
 
-.contenido{
-  display: flex;
-  height: 100vh;
-  margin-top: 2%;
+.container{
+  margin-top: 7rem;
 }
 .izq{
   //background-color: black;
@@ -42,6 +43,7 @@ li{
   width: 85%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 1rem;
   
 }
 .cards{
@@ -50,4 +52,11 @@ li{
   border-bottom: 1px solid;
   bottom: 0;
   text-align: left;
+}
+.card-body{
+  background-color: #f2f4f4;
+}
+.card{
+  box-shadow: yellow;
+  margin-bottom: 1rem;
 }
