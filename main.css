@@ -1,0 +1,53 @@
+body{
+  background-color:  #f2f4f4 
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+}
+li{
+  list-style: none;
+}
+
+.menu ul li{
+  display: inline-block;
+  justify-content: center;
+  padding: 20px;
+  float: top;
+}
+.menu{
+  
+  background-color:  #f2f4f4 ;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.contenido{
+  display: flex;
+  height: 100vh;
+  margin-top: 2%;
+}
+.izq{
+  //background-color: black;
+  width: 15%;
+  boder-right: 1px solid black;
+}
+.der{
+  //background-color: yellow;
+  width: 85%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.cards{
+// border: 1px solid;
+  margin-right: 10%;
+  border-bottom: 1px solid;
+  bottom: 0;
+  text-align: left;
+}
